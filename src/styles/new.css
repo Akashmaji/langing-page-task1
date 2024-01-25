@@ -1,0 +1,180 @@
+/* Add this CSS in your stylesheet or style module */
+
+/* Navbar Container */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    height: auto;
+    
+  }
+  
+  /* Style the search container */
+.search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the search input */
+  .search-input {
+    border: 0;
+    color: #5a5a5a;
+  }
+  
+  /* Style the search button */
+  .search-button {
+    background-color: #673ab7;
+    border-color: #673ab7;
+    margin-left: 180px;
+    margin-top: 0px; /* Adjust the margin as needed */
+  }
+  
+  .search-button:hover,
+  .search-button:focus {
+    background-color: #5e35b1;
+    border-color: #5e35b1;
+  }
+  
+  /* Navigation Items */
+  .nav-items-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  .nav-link2 {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  
+  /* Sign-In Button */
+  .sign-in-button {
+    border: 1px solid #673ab7;
+    background-color: #673ab7;
+    margin-left: 100%;
+    
+  }
+  
+  .sign-in-button:hover,
+  .sign-in-button:focus {
+    background-color: #5e35b1;
+    border-color: #5e35b1;
+  }
+
+  
+
+
+  /* Add this CSS in your stylesheet or style module */
+
+/* Adjust the top margin and padding as needed */
+.navbar-nav .nav-link {
+    margin-top: 0.5rem;
+    padding: 0.375rem 0;
+  }
+  
+  /* Optional: Add styling to the Explore dropdown button */
+  #explore-dropdown {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Optional: Add styling to the dropdown menu */
+  #explore-dropdown .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Optional: Add styling to the dropdown items */
+  #explore-dropdown .dropdown-item {
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  
+  #explore-dropdown .dropdown-item:hover,
+  #explore-dropdown .dropdown-item:focus {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+
+
+
+  /* Add this CSS in your stylesheet or style module */
+
+/* Styles for normal screens */
+.navbar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin-top: 0.5rem;
+    padding: 0.375rem 0;
+  }
+  
+  /* Styles for small screens (mobile) */
+  @media (max-width: 767px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search-bar-container {
+      margin-top: 1rem;
+    }
+  
+    .nav-link {
+      margin-top: 1rem;
+    }
+  }
+
+  
+  /* Add this CSS in your new.css file or style module */
+
+/* Common styles for larger screens */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-items-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px; /* Adjust as needed */
+    }
+  
+    .nav-link,
+    .nav-link2 {
+      margin-top: 10px; /* Adjust as needed */
+    }
+  
+    .sign-in-button {
+      margin-top: 10px; /* Adjust as needed */
+    }
+  }
+  
